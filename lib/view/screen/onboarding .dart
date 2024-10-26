@@ -6,8 +6,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import '../../controller/onboarding_controller.dart';
-import '../../core/constants/routes.dart';
-import '../../core/constants/variables.dart';
+import '../../core/config/constants/routes.dart';
+import '../../core/config/constants/variables.dart';
 import '../../core/functions/exite_app.dart';
 import '../widgets/onboarding/slider_dots.dart';
 import '../widgets/onboarding/slider_pages.dart';

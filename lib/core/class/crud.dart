@@ -8,8 +8,8 @@ import 'package:http/http.dart';
 import 'package:path/path.dart';
 
 import '../../view/widgets/packages/custom_button.dart';
-import '../constants/enums.dart';
-import '../constants/variables.dart';
+import '../config/constants/enums.dart';
+import '../config/constants/variables.dart';
 import '../functions/checkinternet.dart';
 
 class Crud {

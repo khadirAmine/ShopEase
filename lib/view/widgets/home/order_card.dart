@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import '../../../controller/home/home_controller.dart';
-import '../../../core/constants/api_links.dart';
-import '../../../core/constants/assets.dart';
-import '../../../core/constants/variables.dart';
+import '../../../core/config/constants/api_links.dart';
+import '../../../core/config/constants/assets.dart';
+import '../../../core/config/constants/variables.dart';
 import '../../../data/model/order_model.dart';
 import '../packages/custom_button.dart';
 

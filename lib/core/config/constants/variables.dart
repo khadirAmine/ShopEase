@@ -4,12 +4,12 @@ import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import '../../controller/home/favorite_controller.dart';
-import '../../controller/home/home_controller.dart';
-import '../../view/screen/home/favorite_body.dart';
-import '../../view/screen/home/home_body.dart';
-import '../../view/screen/home/cart_body.dart';
-import '../../view/screen/home/profile_body.dart';
+import '../../../controller/home/favorite_controller.dart';
+import '../../../controller/home/home_controller.dart';
+import '../../../view/screen/home/favorite_body.dart';
+import '../../../view/screen/home/home_body.dart';
+import '../../../view/screen/home/cart_body.dart';
+import '../../../view/screen/home/profile_body.dart';
 import 'enums.dart';
 
 late SharedPreferences preferences;

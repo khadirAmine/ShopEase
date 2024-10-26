@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import '../../core/class/crud.dart';
-import '../../core/constants/api_links.dart';
+import '../../core/config/constants/api_links.dart';
 
 Crud crud = Crud();
 

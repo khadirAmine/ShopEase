@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:image_picker/image_picker.dart';
 
-import '../constants/variables.dart';
+import '../config/constants/variables.dart';
 
 Future getImageFromCamera() async {
   final XFile? photo = await picker.pickImage(source: ImageSource.camera);

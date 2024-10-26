@@ -4,12 +4,13 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../controller/home/home_controller.dart';
 import '../../data/remote/api_remote.dart';
-import '../constants/variables.dart';
+import '../config/app_config.dart';
+import '../config/constants/variables.dart';
 
 class ServicesSetting extends GetxService {
   Future<ServicesSetting> init() async {
     preferences = await SharedPreferences.getInstance();
-    // messaging = FirebaseMessaging.instance;
+    await AppConfig.init();
     disableNovificatoin = preferences.getBool('disableNovificatoin') ?? true;
     if (disableNovificatoin) {
       // messaging.getToken().then((value) {});

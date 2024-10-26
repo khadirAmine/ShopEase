@@ -5,8 +5,8 @@ import 'package:get/get.dart';
 
 import '../../../controller/home/favorite_controller.dart';
 import '../../../controller/home/home_controller.dart';
-import '../../../core/constants/enums.dart';
-import '../../../core/constants/variables.dart';
+import '../../../core/config/constants/enums.dart';
+import '../../../core/config/constants/variables.dart';
 
 import '../../../core/functions/exite_app.dart';
 import '../../widgets/home/appbar.dart';

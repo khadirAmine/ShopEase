@@ -2,8 +2,8 @@
 import 'package:flutter/src/widgets/navigator.dart';
 import 'package:get/get.dart';
 
-import '../constants/routes.dart';
-import '../constants/variables.dart';
+import '../config/constants/routes.dart';
+import '../config/constants/variables.dart';
 
 class OnboardingMiddleware extends GetMiddleware {
   @override

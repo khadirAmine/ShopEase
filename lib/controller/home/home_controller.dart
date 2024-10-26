@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../core/constants/enums.dart';
-import '../../core/constants/variables.dart';
+import '../../core/config/constants/enums.dart';
+import '../../core/config/constants/variables.dart';
 import '../../core/functions/select_favorite_data.dart';
 import '../../data/remote/api_remote.dart';
 import 'favorite_controller.dart';

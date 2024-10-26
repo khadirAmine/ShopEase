@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import '../../../controller/home/home_controller.dart';
-import '../../../core/constants/enums.dart';
-import '../../../core/constants/variables.dart';
+import '../../../core/config/constants/enums.dart';
+import '../../../core/config/constants/variables.dart';
 import '../../../core/functions/change_language.dart';
 import '../../screen/us_details.dart';
 import '../shared/profile_image.dart';

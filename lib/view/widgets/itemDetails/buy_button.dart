@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import '../../../controller/itemdetails_controller.dart';
-import '../../../core/constants/variables.dart';
+import '../../../core/config/constants/variables.dart';
 import '../packages/custom_button.dart';
 import '../packages/loading.dart';
 

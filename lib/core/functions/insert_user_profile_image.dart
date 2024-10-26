@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import '../../data/remote/api_remote.dart';
-import '../constants/enums.dart';
+import '../config/constants/enums.dart';
 import 'get_image.dart';
 
 Future addUserProfileImage(int userId, String email,

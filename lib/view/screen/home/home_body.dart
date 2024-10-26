@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import '../../../controller/home/home_controller.dart';
-import '../../../core/constants/routes.dart';
-import '../../../core/constants/variables.dart';
+import '../../../core/config/constants/routes.dart';
+import '../../../core/config/constants/variables.dart';
 import '../../../core/functions/add_favorite_data.dart';
 import '../../../core/functions/delet_favorite.dart';
 import '../../../data/model/categories_moderl.dart';

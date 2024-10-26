@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../core/constants/assets.dart';
+import '../../../core/config/constants/assets.dart';
 import '../../model/contact_model.dart';
 import '../../model/onboarding_model.dart';
 

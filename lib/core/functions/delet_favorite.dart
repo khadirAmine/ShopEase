@@ -1,5 +1,5 @@
 import '../../data/remote/api_remote.dart';
-import '../constants/variables.dart';
+import '../config/constants/variables.dart';
 import 'select_favorite_data.dart';
 
 Future deletFavorite(int userId, itemId, index, var controller,

@@ -1,5 +1,5 @@
 import '../../data/remote/api_remote.dart';
-import '../constants/variables.dart';
+import '../config/constants/variables.dart';
 
 Future selectFavoriteData(int userId) async {
   favoriteItemId = [];

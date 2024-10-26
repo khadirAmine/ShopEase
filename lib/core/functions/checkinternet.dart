@@ -3,8 +3,8 @@ import 'package:get/get.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';
 
 import '../../view/widgets/packages/custom_button.dart';
-import '../constants/enums.dart';
-import '../constants/variables.dart';
+import '../config/constants/enums.dart';
+import '../config/constants/variables.dart';
 
 Future<bool> checkInternet() async {
   bool result = await InternetConnectionChecker().hasConnection;

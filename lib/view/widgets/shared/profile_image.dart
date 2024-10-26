@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../core/constants/api_links.dart';
-import '../../../core/constants/assets.dart';
-import '../../../core/constants/enums.dart';
-import '../../../core/constants/variables.dart';
+import '../../../core/config/constants/api_links.dart';
+import '../../../core/config/constants/assets.dart';
+import '../../../core/config/constants/enums.dart';
+import '../../../core/config/constants/variables.dart';
 import '../../../core/functions/insert_user_profile_image.dart';
 import '../../../data/remote/api_remote.dart';
 import '../packages/custom_button.dart';

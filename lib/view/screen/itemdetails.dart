@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 
 import '../../controller/home/home_controller.dart';
 import '../../controller/itemdetails_controller.dart';
-import '../../core/constants/variables.dart';
+import '../../core/config/constants/variables.dart';
 import '../../core/functions/add_favorite_data.dart';
 import '../../core/functions/delet_favorite.dart';
 import '../../data/remote/api_remote.dart';

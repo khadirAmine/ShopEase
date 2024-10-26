@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'core/constants/variables.dart';
+import 'core/config/constants/variables.dart';
 import 'core/localization/translation.dart';
 import 'core/middleware/onboarding_middleware.dart';
-import 'core/services/services.dart';
+import 'core/services/init_service.dart';
 import 'view/screen/home/home.dart';
 import 'view/screen/itemdetails.dart';
 import 'view/screen/onboarding .dart';

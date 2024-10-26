@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import '../../../controller/home/profile_controller.dart';
-import '../../../core/constants/variables.dart';
+import '../../../core/config/constants/variables.dart';
 import '../../widgets/packages/cutom_card.dart';
 import '../../widgets/shared/profile_image.dart';
 
