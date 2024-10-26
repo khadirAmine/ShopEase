@@ -16,16 +16,14 @@ class ServicesSetting extends GetxService {
     }
     isOnboading = preferences.getBool('isOnboarding') ?? false;
     localeValue = preferences.getString('localeValue');
-    isLogin = preferences.getBool('isLogin') ?? false;
     userEmail = preferences.getString('userEmail') ?? '';
-    if (isLogin) {
-      homeController = Get.put(HomeController());
-      try {
-        userData = await ApiRemote.selectUserData(userEmail);
-      } catch (e) {
-        null;
-      }
+    homeController = Get.put(HomeController());
+    try {
+      userData = await ApiRemote.selectUserData(userEmail);
+    } catch (e) {
+      null;
     }
+
     return this;
   }
 }

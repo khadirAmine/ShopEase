@@ -3,15 +3,11 @@ import 'package:get/get.dart';
 
 import 'core/constants/variables.dart';
 import 'core/localization/translation.dart';
-import 'core/middleware/havelogin.dart';
 import 'core/middleware/onboarding_middleware.dart';
 import 'core/services/services.dart';
-import 'view/screen/auth/login.dart';
-import 'view/screen/auth/signup.dart';
 import 'view/screen/home/home.dart';
 import 'view/screen/itemdetails.dart';
 import 'view/screen/onboarding .dart';
-import 'view/screen/auth/verify_email.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -40,10 +36,6 @@ class MyApp extends StatelessWidget {
             name: '/itemdetails',
             page: () => const Itemdetails(),
             transition: Transition.upToDown),
-        GetPage(
-            name: '/login', page: () => Login(), middlewares: [HaveLogin()]),
-        GetPage(name: '/signup', page: () => Signup()),
-        GetPage(name: '/verifyemail', page: () => const VerifyEmail()),
         GetPage(
             name: '/onboarding',
             page: () => Onboarding(),

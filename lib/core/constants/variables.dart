@@ -21,8 +21,6 @@ bool isOnboading = false;
 String? localeValue;
 final double size = ((Get.width) + (Get.height)) / 2;
 
-bool isLogin = false;
-
 bool emailIsExists = false;
 
 bool passwordIsTrue = true;

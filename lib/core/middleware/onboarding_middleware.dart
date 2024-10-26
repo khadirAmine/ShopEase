@@ -9,7 +9,7 @@ class OnboardingMiddleware extends GetMiddleware {
   @override
   RouteSettings? redirect(String? route) {
     if (isOnboading) {
-      return const RouteSettings(name: Routes.login);
+      return const RouteSettings(name: Routes.home);
     }
     return super.redirect(route);
   }

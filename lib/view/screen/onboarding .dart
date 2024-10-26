@@ -45,7 +45,7 @@ class Onboarding extends StatelessWidget {
                   onTap: () {
                     if (onboardingController.initialPage == 3) {
                       preferences.setBool('isOnboarding', true);
-                      Get.offNamed(Routes.login);
+                      Get.offNamed(Routes.home);
                     } else {
                       onboardingController.pageController.animateToPage(
                           onboardingController.initialPage += 1,
@@ -63,7 +63,7 @@ class Onboarding extends StatelessWidget {
                 ),
                 TextButton(
                     onPressed: () {
-                      Get.offNamed(Routes.login);
+                      Get.offNamed(Routes.home);
                       preferences.setBool('isOnboarding', true);
                     },
                     child: Text(
